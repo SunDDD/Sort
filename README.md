@@ -59,7 +59,7 @@ public class Date implements Comparable<Date>{
 以下是20个元素的样本交换示意图，同时该图像的实现过程也在SelectionSort类的主函数中给出。
 其中红色为两个元素即将进行交换，粉色该元素与自己进行交换，灰色为未参与交换，但需要注意的是
 灰色元素参与了比较。
-![selection](https://github.com/SunDDD/Sort/blob/master/image/selection.gif)
 <div align="center">
     <img src="image/selection.gif" width=50% height=50%/>
 </div>
+
