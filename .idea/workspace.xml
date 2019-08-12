@@ -47,8 +47,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="418">
-                <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -209,17 +209,17 @@
       <option name="presentableId" value="Default" />
       <updated>1565587096672</updated>
       <workItem from="1565587098069" duration="7402000" />
-      <workItem from="1565601072582" duration="6013000" />
+      <workItem from="1565601072582" duration="7431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13415000" />
+    <option name="totallyTimeSpent" value="14833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2992" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25226668" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25226668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -236,7 +236,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32962137" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32258064" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -250,7 +250,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2528" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25226668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -259,7 +259,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32850778" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32850778" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -267,7 +267,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32962137" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32258064" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -341,8 +341,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="418">
-            <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
