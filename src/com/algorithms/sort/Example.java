@@ -1,4 +1,4 @@
-package com.algorithms.sort.example;
+package com.algorithms.sort;
 
 import com.algorithms.sort.selection.SelectionSort;
 import edu.princeton.cs.algs4.StdDraw;
@@ -107,6 +107,40 @@ public class Example {
             StdDraw.filledRectangle(i + 0.5, y / 2.0, 0.3, y / 2.0);
         }
 
+    }
+
+    /**
+     * 把被交换的两个元素改为红色，如果与自己交换，则变为粉色
+     * @param a
+     * @param v
+     * @param w
+     */
+    public static void draw(Comparable[] a, int v, int w) {
+        StdDraw.setXscale(-1, a.length + 1);
+
+        Comparable max = a[0];
+        for (int i = 1; i < a.length; i++) {
+            if (less(max, a[i])) {
+                max = a[i];
+            }
+        }
+        StdDraw.setYscale(-2, (Integer)max + 1);
+
+        for (int i = 0 ; i < a.length; i++) {
+            int y = (Integer)a[i];
+
+            if (i == v || i == w) {
+                if (v == w){
+                    StdDraw.setPenColor(StdDraw.PINK);
+                } else {
+                    StdDraw.setPenColor(StdDraw.RED);
+                }
+            } else {
+                StdDraw.setPenColor(StdDraw.GRAY);
+            }
+
+            StdDraw.filledRectangle(i + 0.5, y / 2.0, 0.3, y / 2.0);
+        }
     }
 
     /**

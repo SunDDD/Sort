@@ -1,6 +1,7 @@
 package com.algorithms.sort.selection;
 
-import com.algorithms.sort.example.Example;
+import com.algorithms.sort.Example;
+import edu.princeton.cs.algs4.StdDraw;
 
 /**
  * @author Carlos
@@ -23,6 +24,33 @@ public class SelectionSort extends Example {
             }
             exch(a, min ,i);
         }
+    }
+
+    public static void drawSort(Comparable[] a) {
+        int N = a.length;
+        draw(a);
+        StdDraw.pause(2000);
+        for (int i = 0; i < N; i++) {
+            int min = i;
+            for (int j = i + 1; j < N; j++) {
+                if (less(a[j], a[min])) {
+                    min = j;
+                }
+            }
+            draw(a, min, i);
+            StdDraw.pause(400);
+            StdDraw.clear();
+            exch(a, min ,i);
+
+        }
+        draw(a);
+    }
+
+    public static void main(String[] args) {
+
+        Integer[] a = Example.getTestData(20);
+        SelectionSort.drawSort(a);
+
     }
 
 }
