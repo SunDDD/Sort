@@ -1,8 +1,10 @@
 package com.algorithms.sort;
 
-import com.algorithms.sort.selection.SelectionSort;
+import com.algorithms.sort.insert.InsertionSort;
 import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdRandom;
+
+import java.awt.*;
 
 /**
  * @author Carlos
@@ -84,7 +86,7 @@ public class Example {
      * 使用algs4.jar包中的StdDraw标准画图实现可视化
      * @param a
      */
-    public static void draw(Comparable[] a) {
+    public static void draw(Comparable[] a, Color color) {
 
         //1.设置x轴长度
         StdDraw.setXscale(-1, a.length + 1);
@@ -99,7 +101,7 @@ public class Example {
         StdDraw.setYscale(-2, (Integer)max + 1);
 
         //3.设置图形颜色
-        StdDraw.setPenColor(StdDraw.GRAY);
+        StdDraw.setPenColor(color);
 
         //4.把每个元素的大小转换成矩形的高度并展示出来
         for (int i = 0 ; i < a.length; i++) {
@@ -165,13 +167,15 @@ public class Example {
 
         //2.排序算法
         //2.1选择排序
-        SelectionSort.sort(a);
+//        SelectionSort.sort(a);
+        //2.2插入排序
+        InsertionSort.sort(a);
 
         //3.验证是否已经有序
         System.out.println(isSorted(a));
 
         //4.可视化
-        draw(a);
+        draw(a, StdDraw.GRAY);
 
 
     }

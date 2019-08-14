@@ -28,7 +28,7 @@ public class SelectionSort extends Example {
 
     public static void drawSort(Comparable[] a) {
         int N = a.length;
-        draw(a);
+        draw(a, StdDraw.GRAY);
         StdDraw.pause(2000);
         for (int i = 0; i < N; i++) {
             int min = i;
@@ -43,13 +43,14 @@ public class SelectionSort extends Example {
             exch(a, min ,i);
 
         }
-        draw(a);
+        draw(a, StdDraw.GRAY);
     }
+
 
     public static void main(String[] args) {
 
         Integer[] a = Example.getTestData(20);
-        SelectionSort.drawSort(a);
+        SelectionSort.sort(a);
 
     }
 
