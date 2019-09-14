@@ -22,9 +22,8 @@ public class SelectionSort extends Example {
                     min = j;
                 }
             }
-            exch(a, min ,i);
+            exch(a, i, min);
         }
-
     }
 
     public static void drawSort(Comparable[] a) {

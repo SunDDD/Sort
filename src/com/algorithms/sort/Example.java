@@ -1,6 +1,6 @@
 package com.algorithms.sort;
 
-import com.algorithms.sort.merge.MergeSort;
+import com.algorithms.sort.quick.QuickSort;
 import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdRandom;
 
@@ -171,9 +171,11 @@ public class Example {
         //2.2插入排序
 //        InsertionSort.sort(a);
         //2.3希尔排序
-//        ShellSort.drawSort(a);
+//        ShellSort.sort(a);
         //2.4归并排序
-        MergeSort.sortBU(a);
+//        MergeSort.sort(a);
+        //2.5快速排序
+        QuickSort.sort(a);
 
         //3.验证是否已经有序
         System.out.println(isSorted(a));
